@@ -1,0 +1,35 @@
+PODS:
+  - banked (0.0.1):
+    - Banked (~> 0.0.16)
+    - Flutter
+  - Banked (0.0.20):
+    - Sentry
+  - Flutter (1.0.0)
+  - Sentry (7.8.0):
+    - Sentry/Core (= 7.8.0)
+  - Sentry/Core (7.8.0)
+
+DEPENDENCIES:
+  - banked (from `.symlinks/plugins/banked/ios`)
+  - Flutter (from `Flutter`)
+
+SPEC REPOS:
+  trunk:
+    - Banked
+    - Sentry
+
+EXTERNAL SOURCES:
+  banked:
+    :path: ".symlinks/plugins/banked/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  Banked: 91a5059e7dc418416d43a4a1e3d21f55ecc23906
+  banked: adc2728750ede6d3ca0ebaabb0c9ef71edddc917
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  Sentry: 9b980005a8cd62b4a985ceb431fceb7f17f7615d
+
+PODFILE CHECKSUM: 7368163408c647b7eb699d0d788ba6718e18fb8d
+
+COCOAPODS: 1.11.2
